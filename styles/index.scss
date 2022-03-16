@@ -1,0 +1,216 @@
+@use 'main';
+
+%button {
+  height:45px;
+  border-radius:4px;
+  background-color: #FF9900;
+  color: #FFFFFF;
+  border:none;
+  font-weight:bold;
+}
+%input {
+  height:50px;
+  margin-bottom:20px;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+}
+// Шапка
+.header {
+  position: fixed;
+  width:1400px;
+  margin-top:20px;
+  background-color: #FFFFFF;
+}
+// Навігація
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-left:-40px;
+  .navigation__link {
+    margin-left:100px;
+    width:350px;
+    display: flex;
+    justify-content: space-around;
+    .navigation__link__product,.navigation__link__customers,.navigation__link__pricng,.navigation__link__resourсes {
+      padding:5px;
+    }
+  }
+  .navigation__button {
+    margin-left:-90px;
+    .navigation__button__sign-in {
+      height:45px;
+      width:100px;
+      border-radius:4px;
+      background-color: #FFFFFF;
+      color: #173A56;
+      border: 1px solid #BCD0E5;
+      font-weight:bold;
+    }
+  }.navigation__button__sign-up {
+    @extend%button;
+    margin-left:15px;
+    width:100px;
+  }
+}
+// Розділ Design Thinking
+h1 {
+  margin-top:120px;
+  margin-bottom:30px;
+}
+.design-thinking {
+  display: flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  margin-top:60px;
+  margin-left: 75px;
+  width:1200px;
+  height:500px;
+  margin-bottom:110px;
+}
+.design-thinking__text {
+  margin-bottom: 45px;
+}
+.design-thinking__button,.design-tools__button {
+  @extend%button;
+  width:175px;
+}
+.design-thinking__link {
+  font-weight:bold;
+  color:#FF9900;
+  margin-left:30px;
+}
+.design-thinking__image {
+  margin-left:auto;
+  margin-top:70px;
+ }
+// Розділ Design tools
+h3 {
+  text-align: center;
+  margin-bottom:55px;
+}
+.design-tools {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:60px;
+}
+.design-tools__first,.design-tools__design,.design-tools__preference,.design-tools__five {
+  width:240px;
+  height:240px;
+}
+.design-tools__first__icon,.design-tools__design__icon,.design-tools__preference__icon,.design-tools__five__icon {
+  margin-bottom:30px;
+}
+.design-tools__first__title,.design-tools__design__title,.design-tools__preference__title,.design-tools__five__title {
+  margin-bottom:15px;
+  font-weight:bold;
+  font-size:22px;
+}
+.design-tools__button {
+  margin-bottom:110px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+// Розділ Design Professionals
+.container-design-professionals {
+  display: flex;
+  margin-left:50px;
+  margin-bottom:60px;
+}
+.design-professionals {
+  width:600px;
+}
+h2 {
+  margin-bottom:20px;
+}
+.design-professionals__text {
+  margin-bottom:25px;
+}
+.design-professionals__smoll-title {
+  margin-bottom: 15px;
+  font-weight:bold;
+}
+.design-professionals-image {
+  margin-left:80px;
+}
+// Розділ Product Managers
+.container-product-managers {
+  display: flex;
+  margin-bottom:60px;
+}
+.product-managers {
+  width:550px;
+  margin-left:80px;
+}
+.product-managers-image {
+  margin-left:50px;
+}
+.product-managers__item {
+  display: flex;
+}
+.product-managers__item__icon {
+  margin-right:30px;
+}
+.product-managers__text,.product-managers__item {
+  margin-bottom:30px;
+}
+// Розділ Marketers
+.container-marketers {
+  display: flex;
+  margin-left:50px;
+  margin-bottom:150px;
+}
+.marketers {
+  width:600px;
+}
+.marketers__text {
+  margin-bottom:25px;
+}
+.marketers__smoll-title {
+  margin-bottom: 15px;
+  font-weight:bold;
+}
+.marketers-image {
+  margin-left:80px;
+}
+hr {
+  width:1230px;
+  color:#BCD0E57F;
+  margin-left:50px;
+  margin-bottom:110px;
+}
+// Футер
+.footer-logo {
+  margin-left:50px;
+  margin-bottom:30px;
+}
+.container-footer{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:85px;
+  height:160px;
+  margin-left:95px;
+}
+.footer-column-1 {
+  margin-left:95px;
+}
+.footer-input {
+  width:330px;
+  @extend%input;
+}
+.footer-button{
+  @extend%button;
+  width:130px;
+}
+.footer-item {
+  margin-bottom: 10px;
+  color:#544837;
+}
+
+
+
+
+
+
+
+
