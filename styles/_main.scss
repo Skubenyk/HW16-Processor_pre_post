@@ -1,28 +1,35 @@
+// Global
 * {
-  margin: 0; 
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   // border: 1px solid red;
 }
+
 body {
-   width:1400px;
-   font-family: 'Poppins', sans-serif;
-   font-size:16px;
-   color:#544837;
-   line-height:26px;
-}
-h1,h2,h3 {
-  color:#2F281E;
-  line-height:55px;
-  font-weight:bold;
-}
-h1 {
-  font-size:45px;
-}
-h2{
-  font-size:35px;
-}
-h3 {
-  font-size:30px;
+  width: 1200px;
+  font-family: "Poppins", sans-serif;
+  font-size: $f-base;
+  color: $c-text;
+  line-height: 26px;
 }
 
+h1,
+h2,
+h3 {
+  color: $c-title;
+  line-height: 55px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: $f-title1;
+}
+
+h2 {
+  font-size: $f-title2;
+}
+
+h3 {
+  font-size: $f-title3;
+}
