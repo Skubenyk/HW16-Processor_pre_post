@@ -379,8 +379,8 @@ h3 {
   background-color: #ffffff;
 }
 
-.design-thinking__button,
-.design-tools__button, .footer-button, .navigation .navigation__button__sign-up {
+.footer-button, .design-thinking__button,
+.design-tools__button, .navigation .navigation__button__sign-up {
   height: 45px;
   border-radius: 4px;
   background-color: #ff9900;
@@ -415,7 +415,7 @@ h3 {
   border-radius: 4px;
   background-color: #ffffff;
   color: #173a56;
-  border: 1px solid #bcd0e5;
+  border: 1px solid #bcd0e57f;
   font-weight: bold;
 }
 .navigation .navigation__button__sign-up {
@@ -424,7 +424,7 @@ h3 {
 }
 
 .footer-button, .design-thinking__button,
-.design-tools__button {
+.design-tools__button, .navigation .navigation__button__sign-up {
   height: 45px;
   border-radius: 4px;
   background-color: #ff9900;
@@ -436,7 +436,7 @@ h3 {
 .footer-input {
   height: 50px;
   margin-bottom: 20px;
-  border: 1px solid #bcd0e5;
+  border: 1px solid #bcd0e57f;
   border-radius: 4px;
 }
 
@@ -596,8 +596,8 @@ h2 {
 }
 
 hr {
-  width: 1230px;
-  color: #bcd0e57f;
+  width: 1180px;
+  color: #bcd0e5;
   margin-left: 50px;
   margin-bottom: 110px;
 }
@@ -629,7 +629,6 @@ hr {
 
 .footer-item {
   margin-bottom: 10px;
-  color: #544837;
 }
 
 /*# sourceMappingURL=index.css.map */

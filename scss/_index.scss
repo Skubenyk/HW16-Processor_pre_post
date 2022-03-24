@@ -1,8 +1,8 @@
-@use 'normalize';
-@use 'main';
-@use 'header';
-@use 'navigation';
-@use 'variable';
+@import './normalize';
+@import './main';
+@import './header';
+@import './navigation';
+@import './variable';
 
 %button {
   height: 45px;
@@ -152,7 +152,7 @@ h2 {
   margin-left: 80px;
 }
 hr {
-  width: 1230px;
+  width: 1180px;
   color: $c-line;
   margin-left: 50px;
   margin-bottom: 110px;

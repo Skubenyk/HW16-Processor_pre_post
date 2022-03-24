@@ -1,3 +1,4 @@
+@import './variable';
 // Global
 * {
   margin: 0;
@@ -9,7 +10,7 @@
 body {
   width: 1200px;
   font-family: "Poppins", sans-serif;
-  font-size: $f-base;
+  font-size: $f-basic;
   color: $c-text;
   line-height: 26px;
 }
