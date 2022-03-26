@@ -1,13 +1,5 @@
+@import './mixin';
 // Navigation
-%button {
-  height: 45px;
-  border-radius: 4px;
-  background-color: $c-orange;
-  color: $c-white;
-  border: none;
-  font-weight: bold;
-}
-
 .navigation {
   display: flex;
   justify-content: space-around;
@@ -20,8 +12,8 @@
     .navigation__link__product,
     .navigation__link__customers,
     .navigation__link__pricng,
-    .navigation__link__resourсes {
-      padding: 5px;
+    .navigation__link__resources {
+      padding:5px;
     }
   }
   .navigation__button {
@@ -29,7 +21,7 @@
     .navigation__button__sign-in {
       height: 45px;
       width: 100px;
-      border-radius: 4px;
+      border-radius: $b-radius;
       background-color: $c-white;
       color: $c-text-button;
       border: 1px solid $c-gray-button-input;
@@ -37,7 +29,7 @@
     }
   }
   .navigation__button__sign-up {
-    @extend%button;
+    @include button;
     margin-left: 15px;
     width: 100px;
   }

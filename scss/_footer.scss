@@ -1,0 +1,26 @@
+// Footer
+.footer-logo {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 85px;
+  height: 160px;
+  margin-left: 95px;
+}
+.footer-column-1 {
+  margin-left: 95px;
+}
+.footer-input {
+  width: 330px;
+  @include input;
+}
+.footer-button {
+  @include button;
+  width: 130px;
+}
+.footer-item {
+  margin-bottom: 10px;
+}

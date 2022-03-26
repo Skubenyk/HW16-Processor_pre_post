@@ -1,0 +1,23 @@
+mixin header()
+  //- Header
+  header.header
+    //- Navigation
+    .navigation
+      //- Navigation logo
+      .navigation__logo
+        img(src="./svg/logo-productly.svg", alt="logo")
+        img(src="./svg/productly.svg", alt="logo")
+      //- Navigation link
+      .navigation__link
+        .navigation__link__product
+          a(href="#") Product 
+        .navigation__link__customers
+          a(href="#") Customers
+        .navigation__link__pricng
+          a(href="#") Pricng
+        .navigation__link__resources
+          a(href="#") Resources  
+      //- Navigation button 
+      .navigation__button
+        button.navigation__button__sign-in(type="button") Sign In
+        button.navigation__button__sign-up(type="button") Sign Up

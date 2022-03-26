@@ -1,0 +1,16 @@
+// Button
+@mixin button {
+  height: 45px;
+  border-radius:$b-radius;
+  background-color: $c-orange;
+  color: $c-white;
+  border: none;
+  font-weight: bold;
+}
+// Input
+@mixin input {
+  height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid $c-gray-button-input;
+  border-radius: $b-radius;
+}

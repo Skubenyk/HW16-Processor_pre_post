@@ -1,28 +1,17 @@
 @import './normalize';
+@import './fonts';
 @import './main';
 @import './header';
 @import './navigation';
 @import './variable';
-
-%button {
-  height: 45px;
-  border-radius: 4px;
-  background-color: $c-orange;
-  color: $c-white;
-  border: none;
-  font-weight: bold;
-}
-%input {
-  height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid $c-gray-button-input;
-  border-radius: 4px;
-}
+@import './mixin';
+@import './footer';
 
 //  Design Thinking
 h1 {
   margin-top: 120px;
   margin-bottom: 30px;
+  width:520px;
 }
 .design-thinking {
   display: flex;
@@ -34,12 +23,16 @@ h1 {
   height: 500px;
   margin-bottom: 110px;
 }
+.design-thinking__link-play,.design-thinking__link-watch {
+  padding:5px;
+}
 .design-thinking__text {
   margin-bottom: 45px;
+  width:460px;
 }
 .design-thinking__button,
 .design-tools__button {
-  @extend%button;
+  @include button;
   width: 175px;
 }
 .design-thinking__link {
@@ -53,8 +46,12 @@ h1 {
 }
 //  Design tools
 h3 {
+  width:540px;
   text-align: center;
   margin-bottom: 55px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .design-tools {
   display: flex;
@@ -156,30 +153,4 @@ hr {
   color: $c-line;
   margin-left: 50px;
   margin-bottom: 110px;
-}
-// Footer
-.footer-logo {
-  margin-left: 50px;
-  margin-bottom: 30px;
-}
-.container-footer {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 85px;
-  height: 160px;
-  margin-left: 95px;
-}
-.footer-column-1 {
-  margin-left: 95px;
-}
-.footer-input {
-  width: 330px;
-  @extend%input;
-}
-.footer-button {
-  @extend%button;
-  width: 130px;
-}
-.footer-item {
-  margin-bottom: 10px;
 }
