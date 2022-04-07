@@ -1,36 +1,37 @@
-@import './mixin';
+@import "./mixin";
 // Navigation
 .navigation {
-  display: flex;
   justify-content: space-around;
-  margin-left: -40px;
+  margin-top: 20px;
+  display: flex;
+
   .navigation__link {
-    margin-left: 100px;
-    width: 350px;
-    display: flex;
     justify-content: space-around;
+    margin-left: 100px;
+    display: flex;
+    width: 350px;
     .navigation__link__product,
     .navigation__link__customers,
     .navigation__link__pricng,
     .navigation__link__resources {
-      padding:5px;
+      padding: 5px;
     }
   }
   .navigation__button {
     margin-left: -90px;
     .navigation__button__sign-in {
+      border: 1px solid $c-gray-button-input;
+      background-color: $c-white;
+      border-radius: $b-radius;
+      color: $c-text-button;
+      font-weight: bold;
       height: 45px;
       width: 100px;
-      border-radius: $b-radius;
-      background-color: $c-white;
-      color: $c-text-button;
-      border: 1px solid $c-gray-button-input;
-      font-weight: bold;
     }
   }
   .navigation__button__sign-up {
-    @include button;
     margin-left: 15px;
+    @include button;
     width: 100px;
   }
 }

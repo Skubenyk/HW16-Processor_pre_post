@@ -1,34 +1,37 @@
-@import './normalize';
-@import './fonts';
-@import './main';
-@import './header';
-@import './navigation';
-@import './variable';
-@import './mixin';
-@import './footer';
+@import "./normalize";
+@import "./fonts";
+@import "./variable";
+@import "./main";
+@import "./mixin";
+@import "./header";
+@import "./navigation";
+@import "./footer";
 
 //  Design Thinking
 h1 {
   margin-top: 120px;
   margin-bottom: 30px;
-  width:520px;
+  width: 520px;
 }
 .design-thinking {
-  display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin-top: 60px;
+  margin-bottom: 110px;
   margin-left: 75px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  display: flex;
   width: 1200px;
   height: 500px;
-  margin-bottom: 110px;
 }
-.design-thinking__link-play,.design-thinking__link-watch {
-  padding:5px;
+.design-thinking__link-watch {
+  padding: 5px;
+}
+.design-thinking__link-watch {
+  border-bottom: 1px solid $c-orange;
 }
 .design-thinking__text {
   margin-bottom: 45px;
-  width:460px;
+  width: 460px;
 }
 .design-thinking__button,
 .design-tools__button {
@@ -36,9 +39,9 @@ h1 {
   width: 175px;
 }
 .design-thinking__link {
+  margin-left: 30px;
   font-weight: bold;
   color: $c-orange;
-  margin-left: 30px;
 }
 .design-thinking__image {
   margin-left: auto;
@@ -46,24 +49,24 @@ h1 {
 }
 //  Design tools
 h3 {
-  width:540px;
-  text-align: center;
-  margin-bottom: 55px;
-  position: relative;
-  left: 50%;
   transform: translate(-50%, 0);
+  margin-bottom: 55px;
+  text-align: center;
+  position: relative;
+  width: 540px;
+  left: 50%;
 }
 .design-tools {
-  display: flex;
   justify-content: space-around;
   margin-bottom: 60px;
+  display: flex;
 }
 .design-tools__first,
 .design-tools__design,
 .design-tools__preference,
 .design-tools__five {
-  width: 240px;
   height: 240px;
+  width: 240px;
 }
 .design-tools__first__icon,
 .design-tools__design__icon,
@@ -80,16 +83,16 @@ h3 {
   font-size: 22px;
 }
 .design-tools__button {
+  transform: translate(-50%, 0);
   margin-bottom: 110px;
   position: relative;
   left: 50%;
-  transform: translate(-50%, 0);
 }
 // Design Professionals
 .container-design-professionals {
-  display: flex;
-  margin-left: 50px;
   margin-bottom: 60px;
+  margin-left: 50px;
+  display: flex;
 }
 .design-professionals {
   width: 600px;
@@ -109,12 +112,12 @@ h2 {
 }
 // Product Managers
 .container-product-managers {
-  display: flex;
   margin-bottom: 60px;
+  display: flex;
 }
 .product-managers {
-  width: 550px;
   margin-left: 80px;
+  width: 550px;
 }
 .product-managers-image {
   margin-left: 50px;
@@ -131,9 +134,9 @@ h2 {
 }
 // Marketers
 .container-marketers {
-  display: flex;
-  margin-left: 50px;
   margin-bottom: 150px;
+  margin-left: 50px;
+  display: flex;
 }
 .marketers {
   width: 600px;
@@ -149,8 +152,8 @@ h2 {
   margin-left: 80px;
 }
 hr {
-  width: 1200px;
-  color: $c-line;
-  margin-left: 50px;
   margin-bottom: 110px;
+  margin-left: 50px;
+  color: $c-line;
+  width: 1200px;
 }

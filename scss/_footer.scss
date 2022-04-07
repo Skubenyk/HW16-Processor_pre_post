@@ -1,26 +1,27 @@
 // Footer
 .footer-logo {
-  margin-left: 50px;
   margin-bottom: 30px;
+  margin-left: 50px;
 }
 .container-footer {
-  display: flex;
   justify-content: space-around;
   margin-bottom: 85px;
-  height: 160px;
   margin-left: 95px;
+  display: flex;
 }
 .footer-column-1 {
   margin-left: 95px;
 }
 .footer-input {
-  width: 330px;
   @include input;
+  width: 330px;
+  padding: 5px;
 }
 .footer-button {
   @include button;
-  width: 130px;
+  padding: 10px;
 }
 .footer-item {
   margin-bottom: 10px;
+  padding: 5px;
 }

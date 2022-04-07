@@ -1,26 +1,26 @@
-@import './variable';
+@import "./variable";
 // Global
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   // border: 1px solid red;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  width: 1200px;
   font-family: "Poppins", sans-serif;
   font-size: $f-basic;
-  color: $c-text;
   line-height: 26px;
+  color: $c-text;
+  width: 1200px;
 }
 
 h1,
 h2,
 h3 {
-  color: $c-title;
-  line-height: 55px;
   font-weight: bold;
+  line-height: 55px;
+  color: $c-title;
 }
 
 h1 {
@@ -33,4 +33,9 @@ h2 {
 
 h3 {
   font-size: $f-title3;
+}
+
+a {
+  text-decoration: none;
+  color: $c-text;
 }
