@@ -531,6 +531,7 @@ h3 {
 .design-tools {
   justify-content: space-around;
   margin-bottom: 60px;
+  margin-left: 40px;
   display: flex;
 }
 
